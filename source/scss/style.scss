@@ -1,0 +1,29 @@
+$dark: #141414;
+$pink: #f8173e;
+$viewbg: #16191a;
+
+@import "./chat.scss";
+@import "./messages.scss";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Comfortaa;
+}
+.container{
+  width: 1140px;
+  margin: auto;
+}
+
+body{
+  background-color: $dark;
+}
+
+.title{
+  margin-top:40px;
+  color:$pink;
+  font-size: 96px;
+  text-align: center;
+  font-weight: 300;
+}
