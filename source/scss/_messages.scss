@@ -1,22 +1,25 @@
 .card-message{
   position: relative;
-  display: block;
+  display: flex;
   padding: 10px 15px;
   font-size: 14px;
   background-color: $pink;
   color:#fff;
   border-radius: 10px;
   min-width: 20%;
-  max-width: 35%;
-  margin-bottom: 8px;
+  max-width: 60%;
+  margin-bottom: 20px;
+  // overflow:hidden;
 
   &__author{
     position: absolute;
-    top: -18px;
+    top: -15px;
     left: 10px;
     font-size: 12px;
     color: rgba(#fff, 0.5); 
     font-weight: 300  ;
-    margin-bottom: 5px;
+  }
+  &>p{
+    word-break: break-all;
   }
 }
